@@ -1,0 +1,25 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browsersync": "browser-sync start --server --directory --files \"**/*\"",
+    "build": "webpack  --config  webpack.prod.js",
+    "serve": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.192",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  }
+}
